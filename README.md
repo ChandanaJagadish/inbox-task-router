@@ -7,9 +7,11 @@ Gemini, and takes action without human intervention:
 
 Built for the Taskmaster track of the All Things Agentic Hackathon.
 
-## Architecture
-
+## Architecture 
+![Architecture diagram](architecture.svg)
 \`\`\`
+
+
 [Gmail inbox] --poll--> [Agent]
                             |
                             |--> Gemini 3.5 Flash (classify intent)
